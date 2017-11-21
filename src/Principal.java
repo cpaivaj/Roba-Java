@@ -17,6 +17,8 @@ public class Principal {
 			int intervalo = 5; // segundos
 			int miliss = intervalo * 1000;
 
+			Mouse.MouseMaluco(robot);
+
 			// loop principal
 			while (cont < repeticoes) {
 				robot.keyPress(KeyEvent.VK_SPACE);
